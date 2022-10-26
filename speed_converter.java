@@ -6,6 +6,7 @@ public class SpeedConverter {
             return -1;
         }
     }
+
     public static void printConversion(double kilometersPerHour) {
         if(kilometersPerHour < 0) {
             System.out.println("Invalid Value");
